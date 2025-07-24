@@ -2477,8 +2477,9 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
+    line-height: 1.5 !important; /* Buraya uygun bir değer yazmalısın */
 }
+
 
 .footer {
     padding: 90px 0 80px !important;
@@ -2766,8 +2767,9 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
+
 
 #preloader {
     width: 100%;

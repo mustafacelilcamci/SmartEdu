@@ -1,7 +1,7 @@
 {
   "name": "smartedu",
   "version": "1.0.0",
-  "description": "education portal",
+  "description": "Education Portal",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
@@ -13,11 +13,20 @@
   ],
   "author": "Celil Çamcı",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  },
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^5.1.0"
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.18.2",
+    "express-validator": "^6.14.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.4",
+    "nodemailer": "^6.7.7",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
